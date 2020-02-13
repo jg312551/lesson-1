@@ -1,6 +1,8 @@
 public class Movie {
     private String title;
     private int rating;
+    private int duration;
+
 
     public Movie() {
         title = "";
@@ -22,6 +24,21 @@ public class Movie {
     public void setRating(int r) {
         rating = r;
     }
+
+    public int getDuration() {
+        return rating;
+    }
+
+    public void setDuration(int d) {
+        duration = d;
+    }
+    public Movie(String title,int rating) {
+        this.title = title;
+        this.rating = rating;
+    }
+public void displayDuration(){
+     System.out.println("hours: " +(duration/60)+" minutes: "+(60 % duration));
+ }
 }
 
 

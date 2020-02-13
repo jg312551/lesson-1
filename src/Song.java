@@ -3,6 +3,8 @@ public class Song {
     private int rating;
     private double price;
     private boolean favorite;
+    private int numSongs=0;
+
 
 
 
@@ -12,7 +14,6 @@ public class Song {
         title = "";
         rating = 0;
         price = 0;
-
     }
 
     public String getTitle() {
@@ -22,14 +23,18 @@ public class Song {
         title = t;
     }
 
+
+
     public int getRating() {
         return rating;
     }
-
     public void setRating(int r) {
         rating = r;
     }
-    public void setPrice(double p){
+
+
+    public void setPrice(double p)
+    {
         price =p;
     }
     public double getPrice(){
@@ -40,9 +45,14 @@ public class Song {
         favorite = true;
     }
 
+
     public Song(String title, double price,int rating) {
         this.title = title;
         this.price = price;
         this.rating = rating;
+        ++numSongs;
+    }
+    public double getNumSongs(){
+        return numSongs;
     }
 }
