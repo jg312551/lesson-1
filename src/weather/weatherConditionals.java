@@ -9,9 +9,23 @@ public class weatherConditionals {
 
         }
         if(description.indexOf("snow") >=0 && temperature > 100 ){
-            return "placeholder text";
+            return "oops! all spiders";
+        }
+
+        if(description.indexOf("clear") >=0 ){
+            return "ita clear outside";
+        }
+        if(description.indexOf("clear") >=0 ){
+            return "ita clear outside";
+        }
+
+
+
+        else {
+            return"enjoy watching the weather through a window";
+        }
+
+
     }
 
-
-  }
 }
