@@ -44,7 +44,7 @@
 # 1.21 
 <p>#3 readString opens and reads a file for the input. writeString  opens and reads a file for the output. saveAndClose saves and closes a file.</p>
 <p>#28    </p>
-<img src="image.PNG" alt="How to Place A Screen Shot">
+<img src="image.png" alt="placeholdertext">
 
 
 <hr>
